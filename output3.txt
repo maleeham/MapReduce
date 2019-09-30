@@ -1,0 +1,13 @@
+Question 3
+Please use in-memory join to answer this question. Given any two Users (they are friend) as input, output the list of the names and the city of their mutual friends. 
+
+Output Format: UserA id, UserB id<TAB>list of [city] of their mutual Friends.  
+
+Output: Full output can be viewed by hdfs dfs -cat /maleeha/output/part-r-00000
+Here, displaying the selected output only 
+
+0,1	Beth:Lake Worth,Juan:Columbia
+20,28193	Robert:Dallas
+1,29826	No Mutual Friends
+6222,19272	Willie:South River,Charles:Fairbanks,Hilton:Tiptonville,Betty:Harlingen
+28041,28056	Taylor:Braddock,Carl:Nashville,Stephanie:Lafayette

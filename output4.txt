@@ -1,0 +1,24 @@
+Question 4
+Using reduce-side join and job chaining:
+Step 1: Calculate the average age of the direct friends of each user. (DONE in Reduce 1)
+Step 2: Sort the users by the average age from step 1 in descending order. (DONE in Reduce 1)
+Step 3. Output the tail 15 (15 lowest averages) users from step 2 with their address and the calculated average age.(DONE in Reduce 2)
+
+Output Format: UserId<TAB>Address,City,State,Average age of direct friends 
+
+Output: 
+1474	4692 Vesta Drive,Chicago,Illinois,22.0
+19385	4877 Ocello Street,San Diego,California,22.0
+19393	461 Pringle Drive,Northbrook,Illinois,22.0
+19396	1780 Russell Street,Lawrence,Massachusetts,22.0
+19398	1720 Hillcrest Circle,Minneapolis,Minnesota,22.0
+19425	574 Formula Lane,Mc Kinney,Texas,22.0
+24638	3658 Maple Lane,Gadsden,Alabama,22.0
+32291	4966 Cardinal Lane,Perry,Illinois,22.0
+34480	682 Johnstown Road,Chicago,Illinois,22.0
+34664	3614 Masonic Hill Road,Little Rock,Arkansas,22.0
+48966	3645 Boggess Street,Dayton,Ohio,22.0
+48967	2846 Walnut Hill Drive,Sharonville,Ohio,22.0
+48978	1999 Bagwell Avenue,Gainesville,Florida,22.0
+48990	3326 Stratford Drive,Honolulu,Hawaii,22.0
+48991	221 Amethyst Drive,Lansing,Michigan,22.0
